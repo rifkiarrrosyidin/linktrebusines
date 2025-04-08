@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .card h2 {
+    margin: 10px 0 5px;
+    font-size: 24px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+  
+  .card button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #6c63ff;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .card button:hover {
+    background-color: #5548c8;
+  }
+  
+  .sosial {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .wa {
+    background-color: #25D366;
+    color: white;
+  }
+  
+  .tele {
+    background-color: #0088cc;
+    color: white;
+  }
+  
+  .sosial button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s ease;
+    font-weight: 600;
+  }
+  
+  .sosial button:hover {
+    opacity: 0.8;
+  }
+  
